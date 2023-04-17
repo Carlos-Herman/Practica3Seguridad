@@ -6,10 +6,7 @@ def codificar_xor(texto, clave):
     return texto_codificado
 
 def descodificar_xor(texto, clave):
-    texto_descodificado = ""
-    for i in range(len(texto)):
-        texto_descodificado += chr(ord(texto[i]) ^ ord(clave[i % len(clave)]))
-    return texto_descodificado
+    codificar_xor(texto, clave)
 
 descodificar = "+*5-=;¡.61!47=?9;;;."
 clave = "XOR"
