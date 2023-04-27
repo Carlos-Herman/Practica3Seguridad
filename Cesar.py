@@ -1,5 +1,5 @@
 
-def codificarCesar(mensaje, desplazamiento):
+def codificar_cesar(mensaje, desplazamiento):
     """Codifica o descodifica un mensaje en Vingere dado un alfabeto y una clave.
     Args:
       mensaje: mensaje que se quiere codificar.
@@ -26,7 +26,7 @@ def codificarCesar(mensaje, desplazamiento):
     return flag
 
 
-for i in range(27):
+for i in range(26):
     flag = codificarCesar("MyaolcxuxChzilguncwuWymul", i)
     print(f"Desplazamiento: {i} - Mensaje--> {flag}")
 
