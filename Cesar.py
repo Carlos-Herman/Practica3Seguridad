@@ -27,7 +27,7 @@ def codificar_cesar(mensaje, desplazamiento):
 
 
 for i in range(26):
-    flag = codificarCesar("MyaolcxuxChzilguncwuWymul", i)
+    flag = codificar_cesar("MyaolcxuxChzilguncwuWymul", i)
     print(f"Desplazamiento: {i} - Mensaje--> {flag}")
 
 """
@@ -36,5 +36,5 @@ Hemos encontrado que el ROT correcto es el ROT-6 y que la flag es: SeguridadInfo
 Probamos el descodificador con estos valores
 """
 
-texto_codificado = codificarCesar("SeguridadInformaticaCesar", -6)
+texto_codificado = codificar_cesar("SeguridadInformaticaCesar", -6)
 print(f"volviendolo a codificar nos queda --> {texto_codificado}")
